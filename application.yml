@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: #激活dev 配置
+    - dev
+---
+spring:
+  profiled: dev
+  application:
+    name: microconfig-test-dev
+---
+spring:
+  profiles: default
+  application:
+    name: microconfig-test-default
