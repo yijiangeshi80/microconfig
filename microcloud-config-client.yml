@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microconfig-test-client5
+    name: microconfig-test-client-yjtest
 
 eureka:
   client:
@@ -18,7 +18,7 @@ eureka:
     register-with-eureka: false
 
 info:
-  app.name: microcloud-config-client-dev2
+  app.name: microcloud-config-client-devyjtest
   company.name: enjoy2
 ---
 server:
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: beta
   application:
-    name: microconfig-test-client5
+    name: microconfig-test-client-yjtest
 
 eureka:
   client:
@@ -36,5 +36,5 @@ eureka:
     register-with-eureka: false
 
 info:
-  app.name: microcloud-config-client-beta2
+  app.name: microcloud-config-client-betayjtest
   company.name: enjoy
